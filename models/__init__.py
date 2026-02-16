@@ -1,0 +1,4 @@
+from models.RandomForest_Github import get_randomforest_github_table
+from models.GradientBoosting_CodeForces import get_gradientboosting_codeforces_table
+from models.DecisionTree_Github import get_decisiontree_github_table
+from models.RandomForest_CodeForces import get_randomforest_codeforces_table
