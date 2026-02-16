@@ -2,8 +2,8 @@ import streamlit as st
 
 EMAIL_CONFIG = st.secrets["EMAIL_CONFIG"]
 
-EMAIL_SENDER = EMAIL_CONFIG.get("sender")
-EMAIL_PASSWORD = EMAIL_CONFIG.get("password")
+EMAIL_SENDER = EMAIL_CONFIG.get("sender_email")
+EMAIL_PASSWORD = EMAIL_CONFIG.get("app_password")
 SMTP_SERVER = EMAIL_CONFIG.get("smtp_server")
 SMTP_PORT = EMAIL_CONFIG.get("smtp_port")
 
